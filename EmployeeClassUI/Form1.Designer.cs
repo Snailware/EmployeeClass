@@ -133,6 +133,7 @@ namespace EmployeeClassUI
 			this.InputEnterButton.TabIndex = 8;
 			this.InputEnterButton.Text = "Enter";
 			this.InputEnterButton.UseVisualStyleBackColor = true;
+			this.InputEnterButton.Click += new System.EventHandler(this.InputEnterButton_Click);
 			// 
 			// LabelNameInput
 			// 
@@ -214,6 +215,7 @@ namespace EmployeeClassUI
 			this.InputClearButton.TabIndex = 17;
 			this.InputClearButton.Text = "Clear";
 			this.InputClearButton.UseVisualStyleBackColor = true;
+			this.InputClearButton.Click += new System.EventHandler(this.InputClearButton_Click);
 			// 
 			// LabelTitle
 			// 
@@ -232,6 +234,7 @@ namespace EmployeeClassUI
 			this.OutputNextButton.TabIndex = 19;
 			this.OutputNextButton.Text = "Next";
 			this.OutputNextButton.UseVisualStyleBackColor = true;
+			this.OutputNextButton.Click += new System.EventHandler(this.OutputNextButton_Click);
 			// 
 			// OutputPreviousButton
 			// 
@@ -241,6 +244,7 @@ namespace EmployeeClassUI
 			this.OutputPreviousButton.TabIndex = 20;
 			this.OutputPreviousButton.Text = "Previous";
 			this.OutputPreviousButton.UseVisualStyleBackColor = true;
+			this.OutputPreviousButton.Click += new System.EventHandler(this.OutputPreviousButton_Click);
 			// 
 			// ExitButton
 			// 
@@ -250,6 +254,7 @@ namespace EmployeeClassUI
 			this.ExitButton.TabIndex = 21;
 			this.ExitButton.Text = "Exit";
 			this.ExitButton.UseVisualStyleBackColor = true;
+			this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
 			// 
 			// GroupBoxInput
 			// 
